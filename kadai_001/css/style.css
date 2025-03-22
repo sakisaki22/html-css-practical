@@ -6,8 +6,8 @@ body{
     color: #000;
     background-color: #fff;
     font-family: "Noto Sans JP", sans-serif;
-    max-width: 1080px;
     margin:  0 auto;
+    width: 100%;
 }
 
 header{
@@ -17,6 +17,9 @@ header{
     align-items: center;
     max-width: 960px;
     height: 115px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 header a{
@@ -29,22 +32,28 @@ h1{
     font-size: 34px;
     border: 1px #000 solid;
     padding: 3px 19px;
+    margin-left: 20px;
 }
 
 nav ul{
     display: flex;
     padding-left: 0;
+    justify-content: space-between;
 }
 
 nav li{
     font-size: 34px;
     list-style: none;
-    margin-right: 20px;
+    margin: 0 20px;
 }
 
 #mainvisual{
-    margin: 0 auto;
     width: 100%;
+}
+
+#mainvisual img{
+    width: 100%;
+    object-fit: cover;
 }
 
 h2{
